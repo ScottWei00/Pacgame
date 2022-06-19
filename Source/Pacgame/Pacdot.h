@@ -24,7 +24,7 @@ public:
 	
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	bool IsSpuerPacdot=false;//是否是特殊食物
+	bool IsSuperPacdot=false;//是否是特殊食物
 
 protected:
 	// Called when the game starts or when spawned
