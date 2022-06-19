@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "EnemyController.h"
+#include "EnemyController.h" 
 #include "PacmanEnemy.h" 
 #include "NavigationSystem.h"
 
@@ -34,4 +34,4 @@ void AEnemyController::GotoNewDestination()
 			MoveToLocation(RandomLocation, 50.f);
 		}
 	}
-}
+} 
