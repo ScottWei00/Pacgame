@@ -31,7 +31,7 @@ void AEnemyController::GotoNewDestination()
 			ControlledEnemy->GetActorLocation(),SearchRadius,RandomLocation);
 		if (bNewDestinationFound)//找到该位置后，移动到该点RandomLocation
 		{
-			MoveToLocation(RandomLocation, 50.f);
+			MoveToLocation(RandomLocation, 50.f);//该语句完成后跳到函数OnMoveCompleted()
 		}
 	}
 } 

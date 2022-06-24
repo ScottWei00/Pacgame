@@ -25,7 +25,7 @@ APacmanEnemy::APacmanEnemy()
 	
 
 	NormalSpeed = 600.f;
-	VulnerableSpeed = 100.f;
+	VulnerableSpeed = 100.f;	
 }
 
 
@@ -132,6 +132,7 @@ void APacmanEnemy::OnEnemyBeginOverlay(UPrimitiveComponent* OverlappedComponent,
 {
 	if (OtherActor->IsA(APacmanPlayer::StaticClass()))
 	{
+		UE_LOG(LogTemp, Warning, TEXT("collision"));
 		if (bIsDead)
 		{
 			return;

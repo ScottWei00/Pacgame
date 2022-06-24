@@ -14,7 +14,6 @@
  * 一个是自定义的OnMoveCompleted(),用来处理AI控制物体移动后的下一步
  * 最后一个是GotoNewDestination(),用来处理AI控制物体要去移动的位置
  * 
->>>>>>> 40bd4fc218480ea8a98e7e6745cf7d585bfd11c9
  */
 UCLASS()
 class PACGAME_API AEnemyController : public AAIController

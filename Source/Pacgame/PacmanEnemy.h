@@ -27,9 +27,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float VulnerableTime;//虚弱时间
 	
+
 	FTimerHandle DeadTimerHandle;
 	FTimerHandle VulnerableTimerHandle;
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float NormalSpeed;//移动速度
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)

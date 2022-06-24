@@ -150,11 +150,11 @@ void APacmanPlayer::MoveY(float value)
 		//移动方向改了，人物的朝向也需要相应更改
 		if (value > 0)
 		{
-			SetActorRotation(FRotator(0, 90, 0));//更改character物体的位置，旋转
+			SetActorRotation(FRotator(0, -90, 0));//更改character物体的位置，旋转
 		}
 		else if (value < 0)
 		{
-			SetActorRotation(FRotator(0, -90, 0));
+			SetActorRotation(FRotator(0, 90, 0));
 		}
 		AddMovementInput(Velocity);//更新人物移动速度和方向
 	}
